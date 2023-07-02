@@ -1,19 +1,3 @@
-# from pyspark.sql import SparkSession
-
-# # Créez une session Spark
-# spark = SparkSession.builder.getOrCreate()
-
-# # Chargement du fichier CSV en tant que DataFrame
-# df = spark.read.format("csv").option("header", "true").load("chroniques_full.csv")
-
-# # Affiche le schéma et les premières lignes du DataFrame
-# df.printSchema()
-# df.show()
-
-# # Transformation et enregistrement en tant que fichier Parquet
-# df.write.format("parquet").save("data.parquet")
-
-
 import logging
 from pyspark.sql import SparkSession
 
@@ -34,7 +18,8 @@ logger.addHandler(file_handler)
 spark = SparkSession.builder.getOrCreate()
 
 # Chargement du fichier CSV en tant que DataFrame
-df = spark.read.format("csv").option("header", "true").load("chroniques_full.csv")
+# df = spark.read.format("csv").option("delimiter","|").option("header", "true").load("chroniques_full.csv")
+df = spark.read.format("csv").option("delimiter",",").option("header", "true").load("chroniques_full_descr.csv")
 
 # Écriture du schéma dans le fichier de log
 schema = df.schema
@@ -47,4 +32,4 @@ for row in rows:
     logger.info(row)
 
 # Transformation et enregistrement en tant que fichier Parquet
-df.write.format("parquet").save("data2.parquet")
+df.write.mode("overwrite").format("parquet").save("chroniques_full.parquet")
