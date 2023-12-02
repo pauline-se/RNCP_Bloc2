@@ -1,7 +1,0 @@
-pyspark
-pandas
-matplotlib
-plotly
-py4j
-kaleido
-scipy
