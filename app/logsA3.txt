@@ -1,0 +1,143 @@
+Corrélation population : 0.8911081135407841
+Corrélation surface : 0.2606263920131632
++--------------+---------+-------+----------+-------+----------+
+| stateProvince|StateCode| nb_obs|State_Code|Surface|Population|
++--------------+---------+-------+----------+-------+----------+
+|   Mississippi|       MS|  30748|        MS| 121531|   2976149|
+|  South Dakota|       SD|   9177|        SD| 196350|    884659|
+|          Utah|       UT|  45246|        UT| 212818|   3205958|
+|      Kentucky|       KY|  16812|        KY| 102269|   4467673|
+|    California|       CA|1247846|        CA| 403466|  39512223|
+|      Nebraska|       NE|  18327|        NE| 198974|   1934408|
+| New Hampshire|       NH|  20637|        NH|  23187|   1359711|
+|      Delaware|       DE|  22511|        DE|   5047|    973764|
+|     Minnesota|       MN|  78572|        MN| 206232|   5639632|
+|North Carolina|       NC|  85430|        NC| 125920|  10488084|
+|        Nevada|       NV|  33727|        NV| 284332|   3080156|
+|    Washington|       WA| 131475|        WA| 172119|   7614893|
+|     Louisiana|       LA|  42816|        LA| 111898|   4648794|
+|         Idaho|       ID|  30848|        ID| 214045|   1787065|
+|       Wyoming|       WY|  11658|        WY| 251470|    578759|
+|    New Mexico|       NM|  54070|        NM| 314161|   2096829|
+|         Maine|       ME|  28733|        ME|  79883|   1344212|
+|     Tennessee|       TN|  51624|        TN| 106798|   6829174|
+|      Colorado|       CO|  85032|        CO| 268431|   5758736|
+|       Arizona|       AZ| 137426|        AZ| 294207|   7278717|
+|     Wisconsin|       WI|  42995|        WI| 140268|   5822434|
+|        Oregon|       OR| 134797|        OR| 248608|   4217737|
+|       Alabama|       AL|  39666|        AL| 131171|   4903185|
+|        Kansas|       KS|  22936|        KS| 211754|   2913314|
+|       Florida|       FL| 302004|        FL| 138887|  21477737|
+|  Pennsylvania|       PA|  95828|        PA| 115883|  12801989|
+|  North Dakota|       ND|   6177|        ND| 169752|    762062|
+|      New York|       NY| 160458|        NY| 122057|  19453561|
+|South Carolina|       SC|  53432|        SC|  77857|   5148714|
+|         Texas|       TX| 767567|        TX| 676587|  28995881|
+|          Ohio|       OH| 138672|        OH| 105829|  11689100|
+|          Iowa|       IA|  12440|        IA| 144669|   3155070|
+|    New Jersey|       NJ|  84082|        NJ|  19047|   8882190|
+|       Montana|       MT|  14620|        MT| 376962|   1068778|
+|       Indiana|       IN|  29690|        IN|  92789|   6732219|
+|        Hawaii|       HI|  27717|        HI|  16635|   1415872|
+|  Rhode Island|       RI|   9384|        RI|   2678|   1059361|
+|      Missouri|       MO|  30215|        MO| 178040|   6137428|
+|      Arkansas|       AR|  19166|        AR| 134771|   3017804|
+|      Michigan|       MI|  54743|        MI| 146435|   9986857|
+|       Georgia|       GA|  39293|        GA| 148859|  10617423|
+|      Illinois|       IL| 119154|        IL| 143793|  12671821|
+|      Maryland|       MD| 108252|        MD|  25142|   6045680|
+|        Alaska|       AK|  31388|        AK|1481305|    731545|
+|   Connecticut|       CT|  28660|        CT|  12542|   3565287|
+|       Vermont|       VT|  67020|        VT|  23871|    623989|
+| Massachusetts|       MA| 129836|        MA|  20202|   6892503|
+|      Oklahoma|       OK|  31629|        OK| 177660|   3956971|
+| West Virginia|       WV|   9780|        WV|  62259|   1792147|
+|      Virginia|       VA| 121566|        VA| 102279|   8535519|
++--------------+---------+-------+----------+-------+----------+
+
+Description nombre d'observations par mois de Merles d'Amérique en 2022 :
+yearMonthEvent
+2022-01-01     28.872340
+2022-02-01     42.065217
+2022-03-01     73.120000
+2022-04-01    109.080000
+2022-05-01     88.900000
+2022-06-01     57.734694
+2022-07-01     41.100000
+2022-08-01     21.425532
+2022-09-01     19.086957
+2022-10-01     27.918367
+2022-11-01     33.604167
+2022-12-01     34.046512
+Name: nb_obs, dtype: float64
+count     12.000000
+mean      48.079482
+std       28.485014
+min       19.086957
+25%       28.633847
+50%       37.573256
+75%       61.581020
+max      109.080000
+Name: nb_obs, dtype: float64
+Description nombre d'observations par Etat de Merles d'Amérique en 2022 :
+StateProvince
+Alabama                  15.500000
+Alaska                   12.272727
+Arizona                  14.916667
+Arkansas                 16.583333
+California              253.583333
+Colorado                 45.083333
+Connecticut              23.083333
+Delaware                  7.166667
+District of Columbia     22.500000
+Florida                  12.375000
+Georgia                  20.833333
+Idaho                    17.583333
+Illinois                102.166667
+Indiana                  39.166667
+Iowa                     15.400000
+Kansas                   22.666667
+Kentucky                 25.166667
+Louisiana                11.909091
+Maine                    12.166667
+Maryland                 84.250000
+Massachusetts           167.500000
+Michigan                 43.916667
+Minnesota                56.583333
+Mississippi               5.400000
+Missouri                 28.727273
+Montana                   9.600000
+Nebraska                 20.250000
+Nevada                   12.333333
+New Hampshire            27.363636
+New Jersey               82.666667
+New Mexico               30.000000
+New York                178.666667
+North Carolina           53.750000
+North Dakota              4.200000
+Ohio                     97.666667
+Oklahoma                 11.833333
+Oregon                   63.083333
+Pennsylvania            106.416667
+Rhode Island              4.909091
+South Carolina            9.916667
+South Dakota              8.500000
+Tennessee                72.500000
+Texas                   115.500000
+Utah                     45.416667
+Vermont                  57.250000
+Virginia                 98.833333
+Washington              112.666667
+West Virginia            16.400000
+Wisconsin                35.583333
+Wyoming                  11.625000
+Name: nb_obs, dtype: float64
+count     50.000000
+mean      47.268636
+std       51.407329
+min        4.200000
+25%       12.343750
+50%       24.125000
+75%       61.625000
+max      253.583333
+Name: nb_obs, dtype: float64

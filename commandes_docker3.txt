@@ -1,0 +1,28 @@
+cd C:\Users\Pauline\Documents\Formation\RNCP\Bloc2\Docker3
+
+docker-compose up --build
+
+docker-compose up
+
+docker exec spark_bloc23 pip install -r /app/requirements.txt
+
+docker exec spark_bloc23 python /app/A1_Chargement_fichiers.py > ./app/logsA1.txt 2>./app/_logs.txt
+docker exec spark_bloc23 python /app/A2_Data_prep.py > ./app/logsA2.txt 2>./app/_logs.txt
+docker exec spark_bloc23 python /app/A3_Analyse_descrp.py > ./app/logsA3.txt 2>./app/_logs.txt
+docker exec spark_bloc23 python /app/A4_Analyse_inferentielle.py > ./app/logsA4.txt 2>./app/_logs.txt
+
+docker exec spark_bloc23 python /app/B1_Analyse_donnees_monde.py > ./app/logsB1.txt 2>./app/_logs.txt
+docker exec spark_bloc23 python /app/B2_Data_prep_monde.py > ./app/logsB2.txt 2>./app/_logs.txt
+docker exec spark_bloc23 python /app/B3_Analyse_descrp_monde.py > ./app/logsB3.txt 2>./app/_logs.txt
+
+docker exec spark_bloc23 pip install pyspark
+docker exec spark_bloc23 pip install pandas
+docker exec spark_bloc23 pip install matplotlib
+docker exec spark_bloc23 pip install plotly
+docker exec spark_bloc23 pip install py4j
+docker exec spark_bloc23 pip install kaleido
+docker exec spark_bloc23 pip install scipy
+
+
+docker exec spark_bloc23 pip install --upgrade plotly
+
